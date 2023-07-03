@@ -1,0 +1,87 @@
+.postSection {
+    margin: 2rem;
+    
+}
+
+.postSection h1 {
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-17px);
+}
+
+
+
+.postField{
+    max-width: 500px;
+    margin: 5% auto;
+}
+
+
+.post-date{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.replay {
+    margin: 12px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-replay {
+    margin-right: 10px !important;
+}
+
+.avatar {
+    margin-right: 10px !important;
+}
+.ui.comments .comment .text {
+    font-size: 1.2rem;
+}
+
+.text-reply{
+   margin-top: 3px;
+   
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.icons-replay {
+    display: flex;
+    align-items: center;
+}
+
+.icons-replay i {
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px){
+    .postField{
+        width: 100%;
+    }
+    .postSection h1{
+        font-size: 30px;
+        transform: translateY(-7px);
+    }
+}
